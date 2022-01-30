@@ -4,9 +4,15 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}'
   ],
   safelist: [
-    /^bg-/,
-    /^to-/,
-    /^from-/
+    {
+      pattern: /^bg-/
+    },
+    {
+      pattern: /^to-/
+    },
+    {
+      pattern: /^from-/
+    }
   ],
   darkmode: false,
   theme: {
